@@ -13,7 +13,7 @@
 	</a>
 
 	<a class="text-3xl font-bold card card-hover bg-gradient-to-br variant-gradient-secondary-tertiary flex justify-center items-center aspect-square"
-		href={`${base}/daily`}>
+		href={`${base}/infinite`}>
 		Infinite
 	</a>
 
