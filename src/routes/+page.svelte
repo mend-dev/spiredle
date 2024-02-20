@@ -117,6 +117,7 @@
 						<li>- the ui is a big wip dont judge</li>
 						<li>- let me know if you got any suggestions</li>
 						<li>- also if you want me to make any other wordle type games im down</li>
+						<li>- oh by the way no mobile layout yet because im lazy</li>
 					</ul>
 				</svelte:fragment>
 			</AccordionItem>
