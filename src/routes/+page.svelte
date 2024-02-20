@@ -94,8 +94,6 @@
 	function OnFlavorSelection(event: CustomEvent<AutocompleteOption<String>>): void {
 		inputGuess = event.detail.label;
 	}
-
-	StartGame();
 </script>
 
 <div class="flex w-full p-4 gap-4">
