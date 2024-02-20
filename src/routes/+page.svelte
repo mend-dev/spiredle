@@ -114,6 +114,7 @@
 				<svelte:fragment slot="content">
 					<ul class="list flex flex-col gap-2">
 						<li>Made by menddev in chat</li>
+						<li>- I get my first ever a20 win the other day, it was on Ironclad :D</li>
 						<li>- the ui is a big wip dont judge</li>
 						<li>- let me know if you got any suggestions</li>
 						<li>- also if you want me to make any other wordle type games im down</li>
