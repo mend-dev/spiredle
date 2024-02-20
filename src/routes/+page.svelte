@@ -17,6 +17,7 @@
 	let popupSettings: PopupSettings = {
 		event: 'focus-click',
 		target: 'popupAutocomplete',
+		placement: 'top-start'
 	};
 
 	let hiddenCard: CardData = <CardData>{};
@@ -86,18 +87,18 @@
 	StartGame();
 </script>
 
-<div class="flex w-full p-4 gap-4">
-	<div class="w-1/4">
+<div class="flex w-full p-4 gap-4 min-h-screen">
+	<div class="w-1/5 flex flex-col gap-2">
 		<span>the ui is a big wip dont judge</span>
-		<input class="text-black input autocomplete" type="search" bind:value={inputGuess} on:keydown={HandleInput} use:popup={popupSettings} />
-		<div class="card w-full max-h-96 relative top-0 left-0" tabindex="-1" data-popup="popupAutocomplete">
+		<input class="text-black input autocomplete" type="search" name="autocomplete-search" bind:value={inputGuess} on:keydown={HandleInput} />
+		<div class="card w-full max-h-96 overflow-y-scroll relative" tabindex="-1">
 			<Autocomplete bind:input={inputGuess} options={options} on:selection={OnFlavorSelection} />
 		</div>
 		{#if win}
 			<div>You Win!</div>
 		{/if}
 	</div>
-	<div class="w-3/4 flex flex-col gap-2">
+	<div class="w-4/5 flex flex-col gap-2">
 		<CardInfo guesses={cards} {hiddenCard} />
 		<span class="grid grid-cols-5 gap-4">
 			<div class="text-center text-2xl font-bold">Card</div>
