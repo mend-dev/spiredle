@@ -2,8 +2,9 @@
 	import CardJson from "../db/new_cards.json";
 	import CardGuess from "../components/card_guess.svelte";
 	import CardInfo from "../components/card_info.svelte";
-	import { Autocomplete, popup } from '@skeletonlabs/skeleton';
+	import { Autocomplete, Accordion, AccordionItem } from '@skeletonlabs/skeleton';
 	import type { AutocompleteOption, PopupSettings } from '@skeletonlabs/skeleton';
+	import { limitShift } from "@floating-ui/dom";
 
 	interface CardData {
 		CardName: string;
@@ -89,15 +90,38 @@
 
 <div class="flex w-full p-4 gap-4 min-h-screen">
 	<div class="w-1/5 flex flex-col gap-2">
-		<span>the ui is a big wip dont judge</span>
-		<span>includes curses, statuses, created cards, everything</span>
 		<input class="text-black input autocomplete" type="search" name="autocomplete-search" bind:value={inputGuess} on:keydown={HandleInput} />
 		<div class="card w-full max-h-72 overflow-y-scroll relative" tabindex="-1">
 			<Autocomplete bind:input={inputGuess} options={options} on:selection={OnFlavorSelection} />
 		</div>
-		<span>Made by menddev in chat</span>
-		<span>let me know if you got any suggestions</span>
-		<span>also if you want me to make any other wordle type games im down</span>
+
+		<Accordion>
+			<AccordionItem>
+				<svelte:fragment slot="summary">Rules</svelte:fragment>
+				<svelte:fragment slot="content">
+					<ul class="list flex flex-col gap-2">
+						<li>- Confirmed info is shown at the top</li>
+						<li>- Tags are just specific in Card Text</li>
+						<li>- Includes Curses, Statuses, Created Cards</li>
+						<li>- Unplayable Cards will have a blank cost</li>
+						<li>- There is no Daily Card yet but eventually</li>
+						<li>- Have fun</li>
+					</ul>
+				</svelte:fragment>
+			</AccordionItem>
+			<AccordionItem>
+				<svelte:fragment slot="summary">Info</svelte:fragment>
+				<svelte:fragment slot="content">
+					<ul class="list flex flex-col gap-2">
+						<li>Made by menddev in chat</li>
+						<li>- the ui is a big wip dont judge</li>
+						<li>- let me know if you got any suggestions</li>
+						<li>- also if you want me to make any other wordle type games im down</li>
+					</ul>
+				</svelte:fragment>
+			</AccordionItem>
+		</Accordion>
+
 		{#if win}
 			<div>You Win!</div>
 		{/if}
