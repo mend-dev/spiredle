@@ -1,0 +1,1122 @@
+[
+    {
+        "name": "Bash",
+        "color": "Red",
+        "rarity": "Basic",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "vulnerable"
+        ]
+    },
+    {
+        "name": "Defend",
+        "color": "Red",
+        "rarity": "Basic",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "gain"
+        ]
+    },
+    {
+        "name": "Strike",
+        "color": "Red",
+        "rarity": "Basic",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage"
+        ]
+    },
+    {
+        "name": "Anger",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "copy",
+            "discard",
+            "card",
+            "pile"
+        ]
+    },
+    {
+        "name": "Armaments",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "upgrade",
+            "hand",
+            "gain",
+            "card",
+            "combat"
+        ]
+    },
+    {
+        "name": "Body Slam",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "block"
+        ]
+    },
+    {
+        "name": "Clash",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "hand",
+            "play",
+            "attack",
+            "card"
+        ]
+    },
+    {
+        "name": "Cleave",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "all"
+        ]
+    },
+    {
+        "name": "Clothesline",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "weak"
+        ]
+    },
+    {
+        "name": "Flex",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Skill",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "strength",
+            "turn",
+            "gain",
+            "lose",
+            "end"
+        ]
+    },
+    {
+        "name": "Havoc",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "draw",
+            "exhaust",
+            "play",
+            "card",
+            "pile"
+        ]
+    },
+    {
+        "name": "Headbutt",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "draw",
+            "discard",
+            "card",
+            "pile"
+        ]
+    },
+    {
+        "name": "Heavy Blade",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "strength",
+            "card"
+        ]
+    },
+    {
+        "name": "Iron Wave",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "block",
+            "gain"
+        ]
+    },
+    {
+        "name": "Perfected Strike",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "all",
+            "card"
+        ]
+    },
+    {
+        "name": "Pommel Strike",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "draw",
+            "card"
+        ]
+    },
+    {
+        "name": "Shrug It Off",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "draw",
+            "gain",
+            "card"
+        ]
+    },
+    {
+        "name": "Sword Boomerang",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "random"
+        ]
+    },
+    {
+        "name": "Thunderclap",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "all",
+            "vulnerable"
+        ]
+    },
+    {
+        "name": "True Grit",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "exhaust",
+            "random",
+            "gain",
+            "card"
+        ]
+    },
+    {
+        "name": "Twin Strike",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage"
+        ]
+    },
+    {
+        "name": "Warcry",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Skill",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "draw",
+            "exhaust",
+            "hand",
+            "card",
+            "pile"
+        ]
+    },
+    {
+        "name": "Wild Strike",
+        "color": "Red",
+        "rarity": "Common",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "draw",
+            "shuffle",
+            "wound",
+            "pile"
+        ]
+    },
+    {
+        "name": "Battle Trance",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "draw",
+            "turn",
+            "card"
+        ]
+    },
+    {
+        "name": "Blood for Blood",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "4",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "cost",
+            "hp",
+            "lose",
+            "combat"
+        ]
+    },
+    {
+        "name": "Bloodletting",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "hp",
+            "gain",
+            "lose"
+        ]
+    },
+    {
+        "name": "Burning Pact",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "draw",
+            "exhaust",
+            "card"
+        ]
+    },
+    {
+        "name": "Carnage",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "ethereal"
+        ]
+    },
+    {
+        "name": "Combust",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Power",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "all",
+            "turn",
+            "hp",
+            "lose",
+            "end"
+        ]
+    },
+    {
+        "name": "Dark Embrace",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Power",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "draw",
+            "exhaust",
+            "card"
+        ]
+    },
+    {
+        "name": "Disarm",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "exhaust",
+            "strength",
+            "lose"
+        ]
+    },
+    {
+        "name": "Dropkick",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "draw",
+            "vulnerable",
+            "gain",
+            "card"
+        ]
+    },
+    {
+        "name": "Dual Wield",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "copy",
+            "hand",
+            "attack",
+            "card",
+            "power",
+            "choose"
+        ]
+    },
+    {
+        "name": "Entrench",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "double"
+        ]
+    },
+    {
+        "name": "Evolve",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Power",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "draw",
+            "card",
+            "status"
+        ]
+    },
+    {
+        "name": "Feel No Pain",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Power",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "exhaust",
+            "gain",
+            "card"
+        ]
+    },
+    {
+        "name": "Fire Breathing",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Power",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "draw",
+            "all",
+            "card",
+            "curse",
+            "status"
+        ]
+    },
+    {
+        "name": "Flame Barrier",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "block",
+            "turn",
+            "gain",
+            "attack"
+        ]
+    },
+    {
+        "name": "Ghostly Armor",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "gain",
+            "ethereal"
+        ]
+    },
+    {
+        "name": "Hemokinesis",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "hp",
+            "lose"
+        ]
+    },
+    {
+        "name": "Infernal Blade",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "exhaust",
+            "hand",
+            "random",
+            "turn",
+            "cost",
+            "attack"
+        ]
+    },
+    {
+        "name": "Inflame",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Power",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "strength",
+            "gain"
+        ]
+    },
+    {
+        "name": "Intimidate",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "exhaust",
+            "all",
+            "weak"
+        ]
+    },
+    {
+        "name": "Metallicize",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Power",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "turn",
+            "gain",
+            "end"
+        ]
+    },
+    {
+        "name": "Power Through",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "hand",
+            "wound",
+            "gain"
+        ]
+    },
+    {
+        "name": "Pummel",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "exhaust"
+        ]
+    },
+    {
+        "name": "Rage",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "play",
+            "turn",
+            "gain",
+            "attack"
+        ]
+    },
+    {
+        "name": "Rampage",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "increase",
+            "card",
+            "combat"
+        ]
+    },
+    {
+        "name": "Reckless Charge",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "draw",
+            "shuffle",
+            "dazed",
+            "pile"
+        ]
+    },
+    {
+        "name": "Rupture",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Power",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "strength",
+            "hp",
+            "gain",
+            "lose",
+            "card"
+        ]
+    },
+    {
+        "name": "Searing Blow",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "upgrade"
+        ]
+    },
+    {
+        "name": "Searing Blow+1",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "upgrade"
+        ]
+    },
+    {
+        "name": "Second Wind",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "exhaust",
+            "hand",
+            "all",
+            "gain",
+            "attack",
+            "card"
+        ]
+    },
+    {
+        "name": "Seeing Red",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "exhaust",
+            "gain"
+        ]
+    },
+    {
+        "name": "Sentinel",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "exhaust",
+            "gain",
+            "card"
+        ]
+    },
+    {
+        "name": "Sever Soul",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "exhaust",
+            "hand",
+            "all",
+            "attack",
+            "card"
+        ]
+    },
+    {
+        "name": "Shockwave",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "exhaust",
+            "all",
+            "vulnerable",
+            "weak"
+        ]
+    },
+    {
+        "name": "Spot Weakness",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "strength",
+            "gain",
+            "attack",
+            "end"
+        ]
+    },
+    {
+        "name": "Uppercut",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "vulnerable",
+            "weak"
+        ]
+    },
+    {
+        "name": "Whirlwind",
+        "color": "Red",
+        "rarity": "Uncommon",
+        "type": "Attack",
+        "cost": "X",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "all"
+        ]
+    },
+    {
+        "name": "Barricade",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Power",
+        "cost": "3",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "turn",
+            "remove"
+        ]
+    },
+    {
+        "name": "Berserk",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Power",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "vulnerable",
+            "turn",
+            "gain"
+        ]
+    },
+    {
+        "name": "Bludgeon",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Attack",
+        "cost": "3",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage"
+        ]
+    },
+    {
+        "name": "Brutality",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Power",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "draw",
+            "turn",
+            "hp",
+            "lose",
+            "card"
+        ]
+    },
+    {
+        "name": "Corruption",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Power",
+        "cost": "3",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "exhaust",
+            "play",
+            "cost",
+            "skill",
+            "kill"
+        ]
+    },
+    {
+        "name": "Demon Form",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Power",
+        "cost": "3",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "strength",
+            "turn",
+            "gain"
+        ]
+    },
+    {
+        "name": "Double Tap",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "play",
+            "turn",
+            "attack"
+        ]
+    },
+    {
+        "name": "Exhume",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "exhaust",
+            "hand",
+            "card",
+            "pile"
+        ]
+    },
+    {
+        "name": "Feed",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Attack",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "exhaust",
+            "hp",
+            "fatal",
+            "fatal"
+        ]
+    },
+    {
+        "name": "Fiend Fire",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "exhaust",
+            "hand",
+            "card"
+        ]
+    },
+    {
+        "name": "Immolate",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "discard",
+            "all",
+            "burn",
+            "card",
+            "pile"
+        ]
+    },
+    {
+        "name": "Impervious",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Skill",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "block",
+            "exhaust",
+            "gain"
+        ]
+    },
+    {
+        "name": "Juggernaut",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Power",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "block",
+            "random",
+            "gain"
+        ]
+    },
+    {
+        "name": "Limit Break",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Skill",
+        "cost": "1",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "exhaust",
+            "strength",
+            "double"
+        ]
+    },
+    {
+        "name": "Offering",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Skill",
+        "cost": "0",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "draw",
+            "exhaust",
+            "hp",
+            "gain",
+            "lose",
+            "card"
+        ]
+    },
+    {
+        "name": "Reaper",
+        "color": "Red",
+        "rarity": "Rare",
+        "type": "Attack",
+        "cost": "2",
+        "upgrade": "",
+        "desc": "",
+        "tags": [
+            "damage",
+            "block",
+            "exhaust",
+            "all",
+            "hp",
+            "heal"
+        ]
+    }
+]
