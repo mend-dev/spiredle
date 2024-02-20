@@ -90,10 +90,14 @@
 <div class="flex w-full p-4 gap-4 min-h-screen">
 	<div class="w-1/5 flex flex-col gap-2">
 		<span>the ui is a big wip dont judge</span>
+		<span>includes curses, statuses, created cards, everything</span>
 		<input class="text-black input autocomplete" type="search" name="autocomplete-search" bind:value={inputGuess} on:keydown={HandleInput} />
-		<div class="card w-full max-h-96 overflow-y-scroll relative" tabindex="-1">
+		<div class="card w-full max-h-72 overflow-y-scroll relative" tabindex="-1">
 			<Autocomplete bind:input={inputGuess} options={options} on:selection={OnFlavorSelection} />
 		</div>
+		<span>Made by menddev in chat</span>
+		<span>let me know if you got any suggestions</span>
+		<span>also if you want me to make any other wordle type games im down</span>
 		{#if win}
 			<div>You Win!</div>
 		{/if}
