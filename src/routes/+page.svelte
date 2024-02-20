@@ -88,6 +88,7 @@
 
 <div class="flex w-full p-4 gap-4">
 	<div class="w-1/4">
+		<span>the ui is a big wip dont judge</span>
 		<input class="text-black input autocomplete" type="search" bind:value={inputGuess} on:keydown={HandleInput} use:popup={popupSettings} />
 		<div class="card w-full max-h-96 relative top-0 left-0" tabindex="-1" data-popup="popupAutocomplete">
 			<Autocomplete bind:input={inputGuess} options={options} on:selection={OnFlavorSelection} />
