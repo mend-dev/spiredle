@@ -21,6 +21,7 @@
 	// Floating UI for Popups
 	import { computePosition, autoUpdate, flip, shift, offset, arrow } from '@floating-ui/dom';
 	import { storePopup } from '@skeletonlabs/skeleton';
+	import Header from '../components/header.svelte';
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 
@@ -29,7 +30,9 @@
 </svelte:head>
 
 <AppShell>
-	<svelte:fragment slot="header"></svelte:fragment>
+	<svelte:fragment slot="header">
+		<Header />
+	</svelte:fragment>
 	<!-- (sidebarLeft) -->
 	<!-- (sidebarRight) -->
 	<!-- (pageHeader) -->

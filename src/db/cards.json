@@ -13,7 +13,7 @@
         ]
     },
     {
-        "name": "Defend",
+        "name": "Defend-Red",
         "color": "Red",
         "rarity": "Basic",
         "type": "Skill",
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "name": "Strike",
+        "name": "Strike-Red",
         "color": "Red",
         "rarity": "Basic",
         "type": "Attack",
@@ -1107,7 +1107,7 @@
         ]
     },
     {
-        "name": "Defend",
+        "name": "Defend-Green",
         "color": "Green",
         "rarity": "Basic",
         "type": "Skill",
@@ -1133,7 +1133,7 @@
         ]
     },
     {
-        "name": "Strike",
+        "name": "Strike-Green",
         "color": "Green",
         "rarity": "Basic",
         "type": "Attack",
@@ -2210,7 +2210,7 @@
         ]
     },
     {
-        "name": "Defend",
+        "name": "Defend-Blue",
         "color": "Blue",
         "rarity": "Basic",
         "type": "Skill",
@@ -2236,7 +2236,7 @@
         ]
     },
     {
-        "name": "Strike",
+        "name": "Strike-Blue",
         "color": "Blue",
         "rarity": "Basic",
         "type": "Attack",
@@ -3327,7 +3327,7 @@
         ]
     },
     {
-        "name": "Defend",
+        "name": "Defend-Purple",
         "color": "Purple",
         "rarity": "Basic",
         "type": "Skill",
@@ -3353,7 +3353,7 @@
         ]
     },
     {
-        "name": "Strike",
+        "name": "Strike-Purple",
         "color": "Purple",
         "rarity": "Basic",
         "type": "Attack",
