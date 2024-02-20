@@ -20,7 +20,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: '/spiredle'
+			base: process.env.NODE_ENV === 'production' ? '/spiredle' : '',
 		}
 	}
 };
