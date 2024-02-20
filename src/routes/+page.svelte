@@ -1,5 +1,7 @@
 <script lang="ts">
 	import CardJson from "../db/new_cards.json";
+	import CardGuess from "../components/card_guess.svelte";
+	import CardInfo from "../components/card_info.svelte";
 	import { Autocomplete, popup } from '@skeletonlabs/skeleton';
 	import type { AutocompleteOption, PopupSettings } from '@skeletonlabs/skeleton';
 
@@ -9,7 +11,6 @@
 		CardRarity: string;
 		CardType: string;
 		CardCost: string;
-		CardUpgraded: string;
 		CardTags: string[];
 	};
 
@@ -36,12 +37,6 @@
 		hiddenCard.CardRarity = CardJson[randomCard].rarity;
 		hiddenCard.CardType = CardJson[randomCard].type;
 		hiddenCard.CardCost = CardJson[randomCard].cost;
-		if (hiddenCard.CardName.endsWith("+")) {
-			hiddenCard.CardUpgraded = "true";
-			hiddenCard.CardName = hiddenCard.CardName.substring(0, hiddenCard.CardName.length - 1)
-		} else {
-			hiddenCard.CardUpgraded = "false";
-		}
 		hiddenCard.CardTags = CardJson[randomCard].tags;
 	}
 
@@ -56,12 +51,6 @@
 				guessedCard.CardRarity = card.rarity;
 				guessedCard.CardType = card.type;
 				guessedCard.CardCost = card.cost;
-				if (guessedCard.CardName.endsWith("+")) {
-					guessedCard.CardUpgraded = "true";
-					guessedCard.CardName = guessedCard.CardName.substring(0, guessedCard.CardName.length - 1)
-				} else {
-					guessedCard.CardUpgraded = "false";
-				}
 				guessedCard.CardTags = card.tags;
 				canGuess = true;
 			}
@@ -73,12 +62,11 @@
 		guessedCard.CardColor === hiddenCard.CardColor &&
 		guessedCard.CardRarity === hiddenCard.CardRarity &&
 		guessedCard.CardType === hiddenCard.CardType &&
-		guessedCard.CardCost === hiddenCard.CardCost &&
-		guessedCard.CardUpgraded === hiddenCard.CardUpgraded) {
+		guessedCard.CardCost === hiddenCard.CardCost) {
 			win = true;
 		}
 
-		cards.unshift(guessedCard);
+		cards.push(guessedCard);
 		cards = cards;
 	}
 
@@ -101,77 +89,27 @@
 <div class="flex w-full p-4 gap-4">
 	<div class="w-1/4">
 		<input class="text-black input autocomplete" type="search" bind:value={inputGuess} on:keydown={HandleInput} use:popup={popupSettings} />
-		<div class="card w-full max-w-sm max-h-48 overflow-y-auto relative top-0 left-0" tabindex="-1" data-popup="popupAutocomplete">
+		<div class="card w-full max-h-96 relative top-0 left-0" tabindex="-1" data-popup="popupAutocomplete">
 			<Autocomplete bind:input={inputGuess} options={options} on:selection={OnFlavorSelection} />
 		</div>
 		{#if win}
 			<div>You Win!</div>
 		{/if}
 	</div>
-	<div class="w-3/4">
-		<span class="grid grid-cols-7">
-			<div>Card</div>
-			<div>Color</div>
-			<div>Rarity</div>
-			<div>Type</div>
-			<div>Cost</div>
-			<div>Upgrade</div>
-			<div>Tags</div>
+	<div class="w-3/4 flex flex-col gap-2">
+		<CardInfo guesses={cards} {hiddenCard} />
+		<span class="grid grid-cols-5 gap-4">
+			<div class="text-center text-2xl font-bold">Card</div>
+			<div class="text-center text-2xl font-bold">Color</div>
+			<div class="text-center text-2xl font-bold">Rarity</div>
+			<div class="text-center text-2xl font-bold">Type</div>
+			<div class="text-center text-2xl font-bold">Cost</div>
 		</span>
 
-		{#each cards as card}
-			<span class="grid grid-cols-7">
-				{#if card.CardName === hiddenCard.CardName}
-					<div class="text-green-500">{card.CardName}</div>
-				{:else}
-					<div class="text-red-500">{card.CardName}</div>
-				{/if}
-
-				{#if card.CardColor === hiddenCard.CardColor}
-					<div class="text-green-500">{card.CardColor}</div>
-				{:else}
-					<div class="text-red-500">{card.CardColor}</div>
-				{/if}
-
-				{#if card.CardRarity === hiddenCard.CardRarity}
-					<div class="text-green-500">{card.CardRarity}</div>
-				{:else}
-					<div class="text-red-500">{card.CardRarity}</div>
-				{/if}
-
-				{#if card.CardType === hiddenCard.CardType}
-					<div class="text-green-500">{card.CardType}</div>
-				{:else}
-					<div class="text-red-500">{card.CardType}</div>
-				{/if}
-
-				{#if card.CardCost === hiddenCard.CardCost}
-					<div class="text-green-500">{card.CardCost}</div>
-				{:else}
-					<div class="text-red-500">{card.CardCost}</div>
-				{/if}
-
-				{#if card.CardUpgraded === hiddenCard.CardUpgraded}
-					<div class="text-green-500">{card.CardUpgraded}</div>
-				{:else}
-					<div class="text-red-500">{card.CardUpgraded}</div>
-				{/if}
-
-				<div>
-					{#each card.CardTags as tag}
-						{#if hiddenCard.CardTags.includes(tag)}
-							<div class="text-green-500">{tag}</div>
-						{:else}
-							<div class="text-red-500">{tag}</div>
-						{/if}
-					{/each}
-				</div>
-			</span>
-		{/each}
+		<div class="flex flex-col-reverse gap-4">
+			{#each cards as card}
+				<CardGuess {hiddenCard} {card} />
+			{/each}
+		</div>
 	</div>
 </div>
-
-<style lang="sass">
-	input
-		text-color: black
-</style>

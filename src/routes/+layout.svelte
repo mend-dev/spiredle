@@ -10,6 +10,8 @@
 	import javascript from 'highlight.js/lib/languages/javascript';
 	import typescript from 'highlight.js/lib/languages/typescript';
 
+	import { AppShell } from '@skeletonlabs/skeleton';
+
 	hljs.registerLanguage('xml', xml); // for HTML
 	hljs.registerLanguage('css', css);
 	hljs.registerLanguage('javascript', javascript);
@@ -22,4 +24,14 @@
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 
-<slot />
+<AppShell>
+	<svelte:fragment slot="header"></svelte:fragment>
+	<!-- (sidebarLeft) -->
+	<!-- (sidebarRight) -->
+	<!-- (pageHeader) -->
+	<!-- Router Slot -->
+	<slot />
+	<!-- ---- / ---- -->
+	<!-- (pageFooter) -->
+	<!-- (footer) -->
+</AppShell>
