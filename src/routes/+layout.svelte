@@ -24,6 +24,10 @@
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 </script>
 
+<svelte:head>
+	<title>Spiredle</title>
+</svelte:head>
+
 <AppShell>
 	<svelte:fragment slot="header"></svelte:fragment>
 	<!-- (sidebarLeft) -->
