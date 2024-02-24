@@ -96,14 +96,14 @@
 </svelte:head>
 
 
-<div class="flex w-full p-4 gap-4 min-h-screen">
-	<div class="w-1/5 flex flex-col gap-2">
+<div class="flex md:flex-row flex-col w-full md:p-4 p-2 gap-4 min-h-screen">
+	<div class="md:w-1/5 w-full flex flex-col gap-2">
 		<input class="text-black input autocomplete" type="search" name="autocomplete-search" bind:value={inputGuess} on:keydown={HandleInput} />
-		<div class="card w-full max-h-72 overflow-y-scroll relative" tabindex="-1">
+		<div class="card w-full md:max-h-72 max-h-48 overflow-y-scroll relative" tabindex="-1">
 			<Autocomplete bind:input={inputGuess} options={options} on:selection={OnFlavorSelection} />
 		</div>
 
-		<Accordion>
+		<Accordion class="hidden md:block">
 			<AccordionItem>
 				<svelte:fragment slot="summary">Rules</svelte:fragment>
 				<svelte:fragment slot="content">
@@ -136,7 +136,7 @@
 			<div>You Win!</div>
 		{/if}
 	</div>
-	<div class="w-4/5 flex flex-col gap-2">
+	<div class="md:w-4/5 w-full flex flex-col gap-2">
 		<CardInfo guesses={cards} {hiddenCard} />
 		<span class="grid grid-cols-5 gap-4">
 			<div class="text-center text-2xl font-bold">Card</div>

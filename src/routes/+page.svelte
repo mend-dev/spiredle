@@ -6,7 +6,7 @@
 	<title>Spiredle</title>
 </svelte:head>
 
-<div class="grid grid-cols-4 p-8 gap-8">
+<div class="grid lg:grid-cols-4 p-8 gap-8 md:grid-cols-2 grid-cols-1">
 	<a class="text-3xl font-bold card card-hover bg-gradient-to-br variant-gradient-primary-secondary flex justify-center items-center aspect-square"
 		href={`${base}/daily`}>
 		Daily

@@ -15,7 +15,7 @@
 </script>
 
 <div class="flex flex-col gap-2">
-    <span class="grid grid-cols-5 gap-2">
+    <span class="grid grid-cols-5 md:gap-2 gap-1">
         <ValueSquare value={card.CardName} matchValue={hiddenCard.CardName} />
         <ValueSquare value={card.CardColor} matchValue={hiddenCard.CardColor} />
         <ValueSquare value={card.CardRarity} matchValue={hiddenCard.CardRarity} />
